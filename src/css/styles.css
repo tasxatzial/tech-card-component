@@ -33,7 +33,20 @@
     font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: 1px;
+    text-decoration: none;
     color: #111D4A;
+    background-color: #05CBE9;
+    padding: .5em 1.25em;
+    transform: scale(1.0);
+    transition: transform .2s;
+}
+
+.card-read-more:hover {
+    transform: scale(1.03);
+}
+
+.card-read-more:active {
+    background-color: aqua;
 }
 
 .card-read-time {
@@ -56,5 +69,6 @@
 .card-footer {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     margin-top: 3em;
 }
