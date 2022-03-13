@@ -1,0 +1,39 @@
+.card {
+    background-color: #111D4A;
+    color: white;
+}
+
+.card-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.card-title,
+.card-read-time,
+.card-read-more {
+    font-family: 'Blinker', sans-serif;
+}
+
+.card-title {
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+    color: #05CBE9;
+}
+
+.card-read-more {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #111D4A;
+}
+
+.card-read-time {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.card-read-time span {
+    font-size: 1.25em;
+    font-weight: 700;
+}
