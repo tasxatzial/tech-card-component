@@ -1,12 +1,19 @@
 .card {
     background-color: #111D4A;
     color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 21rem;
+}
+
+.card-main {
+    padding: 2em;
 }
 
 .card-text {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 .card-title,
@@ -19,6 +26,7 @@
     font-size: 1.75rem;
     letter-spacing: 1px;
     color: #05CBE9;
+    margin-top: 0;
 }
 
 .card-read-more {
@@ -31,9 +39,22 @@
 .card-read-time {
     font-size: 1rem;
     opacity: 0.8;
+    margin-bottom: 0;
 }
 
 .card-read-time span {
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight: 700;
+    display: block;
+}
+
+.card-img {
+    height: 14rem;
+    object-fit: cover;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
 }
