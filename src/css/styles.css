@@ -1,9 +1,11 @@
 .card {
     background-color: #111D4A;
     color: white;
+    border-radius: 4px;
     max-width: 21rem;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
 }
 
 .card-main {
@@ -64,8 +66,11 @@
 .card-img {
     min-height: 0;
     min-width: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     object-fit: cover;
     flex-basis: 200px;
+    
 }
 
 .card-footer {
@@ -87,5 +92,10 @@
 
     .card-main {
         width: 70%;
+    }
+
+    .card-img {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 4px;
     }
 }
