@@ -69,8 +69,7 @@
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     object-fit: cover;
-    flex-basis: 200px;
-    
+    flex: 0 0 200px;
 }
 
 .card-footer {
@@ -88,10 +87,6 @@
     .card {
         max-width: 42rem;
         flex-direction: row;
-    }
-
-    .card-main {
-        width: 70%;
     }
 
     .card-img {
