@@ -4,7 +4,11 @@ A simple card component. See it live [here](https://tasxatzial.github.io/tech-ti
 
 ## Implementation
 
-This project demonstrates the following concepts/techniques:
+This project was built with:
+
+* Plain HTML, CSS.
+
+### Frontend
 
 * Responsive website (CSS flexbox, CSS grid).
 * Mobile first design.
