@@ -73,8 +73,9 @@ body {
     margin-top: 1em;
 }
 
+.card-read-more:focus,
 .card-read-more:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 .card-read-more:active {
