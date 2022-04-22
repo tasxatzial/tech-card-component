@@ -1,6 +1,6 @@
-# Tech tips card
+# Tech card
 
-A simple card component. See it live [here](https://tasxatzial.github.io/tech-tips-card).
+A simple card component. See it live [here](https://tasxatzial.github.io/tech-card-component).
 
 ## Implementation
 
@@ -10,7 +10,8 @@ This project was built with:
 
 ### Frontend
 
-* Responsive website (CSS flexbox, CSS grid).
+* Responsive website (CSS flexbox).
+* Same card built twice (CSS flexbox only, CSS grid only).
 * Mobile first design.
 
 ## Run locally
