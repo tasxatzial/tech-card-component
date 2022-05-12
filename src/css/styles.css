@@ -75,6 +75,7 @@ body {
 
 .card-read-more:focus,
 .card-read-more:hover {
+    outline: 2px solid white;
     transform: scale(1.05);
 }
 
