@@ -1,18 +1,20 @@
 # Tech card
 
-A simple card component. See it live [here](https://tasxatzial.github.io/tech-card-component).
+A simple card component.
+
+See it live [here](https://tasxatzial.github.io/tech-card-component).
+
+**Note:** This project was built for learning purposes.
 
 ## Implementation
-
-This project uses:
-
-* Plain HTML, CSS.
-
-### Frontend
 
 * Responsive cards.
 * Same card built using flexbox only and grid + flexbox.
 * Mobile first design.
+
+## Dependencies
+
+* [:focus-visible](https://github.com/WICG/focus-visible) polyfill.
 
 ## Run locally
 
