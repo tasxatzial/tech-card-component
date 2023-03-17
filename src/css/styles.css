@@ -95,11 +95,11 @@ body {
 }
 
 .card-read-more:hover {
-    outline: 2px solid white;
+    color: beige;
 }
 
 .card-read-more:active {
-    background-color: aqua;
+    background-color: #05deff;
 }
 
 .card-read-time {
