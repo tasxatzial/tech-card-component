@@ -1,27 +1,27 @@
 # Tech card
 
-A simple card component.
+A simple HTML/CSS card component.
 
-See it live [here](https://tasxatzial.github.io/tech-card-component).
-
-**Note:** This project was built for learning purposes.
+This project is part of the responsive design course from [Scrimba](https://scrimba.com/). [Design specs](https://xd.adobe.com/spec/3bcaad42-bd8a-415e-6274-08b282cfb769-4dfb/) and starter files are provided by [Kevin Powell](https://github.com/kevin-powell/reponsive-web-design-bootcamp).
 
 ## Implementation
 
 * Responsive cards.
-* Same card built using flexbox only and grid + flexbox.
 * Mobile first design.
+* Two implementations: one that uses only Flex and another that combines both Flex and Grid.
+
+While my implementation follows the course content loosely, it also incorporates improvements that address most of the underlying issues.
 
 ## Dependencies
+
+External:
 
 * [:focus-visible](https://github.com/WICG/focus-visible) polyfill.
 
 ## Run locally
 
-Download the repo and open 'src/index.html' in your browser.
+Download the repo and open 'src/index.html' in the browser.
 
 ## Screenshots
 
-* Original design: See [mockups](mockups/).
-
-* Final result -with improvements-: See [screenshots](screenshots/).
+See [screenshots](screenshots/).
