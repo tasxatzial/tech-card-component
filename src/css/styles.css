@@ -24,7 +24,8 @@ body {
 }
 
 .js-focus-visible .focus-visible {
-    outline: 2px solid tomato;
+    outline: 2px dashed white;
+    outline-offset: 2px;
 }
 
 @supports selector(:focus-visible) {
@@ -33,7 +34,8 @@ body {
     }
 
     :focus-visible {
-        outline: 2px solid tomato;
+        outline: 2px dashed white;
+        outline-offset: 2px;
     }
 }
 
@@ -104,12 +106,14 @@ body {
     margin-top: 1em;
 }
 
-.card-read-more:hover {
-    color: beige;
+@media (hover:hover) {
+    .card-read-more:hover {
+        color: beige;
+    }
 }
 
 .card-read-more:active {
-    background-color: #05deff;
+    transform: scale(1.02);
 }
 
 .card-read-time {
